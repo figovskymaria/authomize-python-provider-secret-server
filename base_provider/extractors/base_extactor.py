@@ -34,6 +34,8 @@ class BaseExtractor:
         self.shared_memory = shared_memory
         self.shared_configuration = shared_configuration
 
+    def 
+
     def extact_raw(self) -> Iterable[dict]:
         """
         Extract all items from source system
@@ -45,14 +47,12 @@ class BaseExtractor:
         * rate-limit
         Should prefer to use generators (yield) over lists
         """
-        raise NotImplementedError()
+        self.users = 
 
     @property
-    def extractor_name(self):
+    def secret_server_extractor(self):
         """
-        Extractor name.
-        
-        Used in logs
+        Secret Server Extractor
         """
         return type(self).__name__
 

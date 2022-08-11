@@ -19,3 +19,4 @@ class BaseClient:
     ) -> None:
         """Init with standard configuration"""
         self.client_configuration = client_configuration
+    

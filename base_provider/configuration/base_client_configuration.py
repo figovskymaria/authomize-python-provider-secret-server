@@ -11,3 +11,4 @@ class BaseClientConfiguration(BaseModel):
     Should include auth details
     """
     pass
+       

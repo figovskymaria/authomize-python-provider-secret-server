@@ -1,8 +1,8 @@
 from base_provider import ApplicationConfiguration, AuthomizeApiConfiguration
-from onelogin_provider.configuration.client_configuration import OneloginClientConfiguration
-from onelogin_provider.configuration.shared_configuration import OneloginSharedConfiguration
-from onelogin_provider.workflows.health_checker import OneloginHealthChecker
-from onelogin_provider.workflows.runner import OneloginRunner
+from secret__server_provider.configuration.client_configuration import OneloginClientConfiguration
+from secret__server_provider.configuration.shared_configuration import OneloginSharedConfiguration
+from secret__server_provider.workflows.health_checker import OneloginHealthChecker
+from secret__server_provider.workflows.runner import OneloginRunner
 
 
 def example():
